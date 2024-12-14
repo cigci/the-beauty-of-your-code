@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_7);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #1c1c1e;
+      }
+    </style>
+    <radialGradient id="Unbenannter_Verlauf_7" data-name="Unbenannter Verlauf 7" cx="256" cy="256" fx="256" fy="256" r="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b4f9ff"/>
+      <stop offset=".16" stop-color="#a4edfc"/>
+      <stop offset=".43" stop-color="#92ddfa"/>
+      <stop offset=".71" stop-color="#86d4f8"/>
+      <stop offset="1" stop-color="#83d2f8"/>
+    </radialGradient>
+  </defs>
+  <g id="Ebene_3" data-name="Ebene 3">
+    <rect class="cls-2" width="512" height="512" rx="64" ry="64"/>
+  </g>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <path class="cls-1" d="m400.17,241.93l-130.11-130.11c-7.77-7.77-20.36-7.77-28.13,0L111.83,241.93c-7.77,7.77-7.77,20.36,0,28.13l130.11,130.11c7.77,7.77,20.36,7.77,28.13,0l130.11-130.11c7.77-7.77,7.77-20.36,0-28.13Zm-70.33,28.13l-59.78,59.78c-7.77,7.77-20.36,7.77-28.13,0l-59.78-59.78c-7.77-7.77-7.77-20.36,0-28.13l59.78-59.78c7.77-7.77,20.36-7.77,28.13,0l59.78,59.78c7.77,7.77,7.77,20.36,0,28.13Z"/>
+  </g>
+</svg>

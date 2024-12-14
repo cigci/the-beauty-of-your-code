@@ -1,0 +1,19 @@
+{
+  "name": "the-beauty-of-your-code",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "build-ts": "bun build src/tboyc.ts --outfile dist/tboyc.js",
+    "watch-ts": "bun build src/tboyc.ts --outfile dist/tboyc.js --watch",
+    "minify": "terser dist/tboyc.js -o dist/tboyc.min.js --mangle --mangle-toplevel --compress drop_console=true,hoist_vars=true,hoist_funs=true,reduce_vars=true,passes=2",
+    "build-and-minify": "bun build src/tboyc.ts --outfile dist/tboyc.js && npm run minify",
+    "watch-minify": "chokidar 'dist/tboyc.js' -c 'npm run minify'",
+    "watch-all": "bun run watch-ts && bun run watch-minify"
+  },
+  "type": "module",
+  "dependencies": {
+    "terser": "^5.36.0",
+    "typescript": "^5.6.3"
+  }
+}

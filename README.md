@@ -2,14 +2,14 @@
 
 # The Beauty of Your Code (TBOYC)
 
-**TBOYC** is a lightweight framework designed to beautifully display snippets of code on your website. Whether you're a developer looking for fine-grained customisation or a non-developer looking for plug-and-play simplicity, TBOYC makes it easy to showcase your code.
+**TBOYC** is a lightweight library designed to beautifully display snippets of code on your website. Whether you're a developer looking for fine-grained customisation or a non-developer looking for plug-and-play simplicity, TBOYC makes it easy to showcase your code.
 
 ## Getting Started
 
 ### Installation
 
 1. **Add the TBOYC script to your website:**    
-   Include the script file of the framework in your HTML:
+   Include the script file of the library in your HTML:
    ```html
    <script src="tboyc.js"></script>
 2. **Prepare Code Snippets:**   
@@ -21,7 +21,7 @@
         </code>
     </div>
 3. **Add Meta Tags:**   
-    Use meta tags to control the framework's behavior.
+    Use meta tags to control the library's behavior.
 
 ## Meta Tag Options
 TBOYC uses HTML meta tags to customize its behavior. Here's a list of supported meta tags, their usage, and available options.
@@ -31,6 +31,7 @@ TBOYC uses HTML meta tags to customize its behavior. Here's a list of supported 
 | `theme`             | Specifies the theme for syntax highlighting.      | `vscode/dark`       | `vscode/dark`    |
 | `btn`               | Toggles the copy-to-clipboard button.             | `on`, `off`         | `on`             |
 | `title`             | Adds a title above the code block.                | `My Script`         | `null` (no title)|
+| `width`             | Sets the width of the code block container.         | `100%`, `25%`, `400px` | `100%`           |
 
 > **Note:** The `language` meta setting is planned for a future release and is currently not functional.
 
@@ -98,3 +99,6 @@ The language meta tag will allow fine-grained syntax highlighting. Planned featu
 
 - Automatic Detection: Based on the content of the code block.
 - Manual Specification: Developers can explicitly set the language.
+
+## Demo
+Try it out on the [TBOYC Live Demo.](https://cigci.com/projects/tboyc/index.html)
